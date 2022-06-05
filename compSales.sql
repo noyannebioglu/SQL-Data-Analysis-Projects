@@ -1,3 +1,8 @@
+/*
+Computer Sales Data Exploration 
+Skills used: CRUD and Aggregate Functions, Creating Views, Converting Data Types
+*/
+
 SELECT * FROM dbo.computer;
 --renaming column
 exec sp_rename 'dbo.computer.sss', 'salesID', 'COLUMN'
